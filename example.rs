@@ -9,7 +9,7 @@ impl AcademicEntity for Student {
         &self.name
     }
     fn print_details(&self) {
-        // Press `w` to move to next word, and continue pressing `w` to move to next words
+        // Press `j` to move to next line then `w` to move to next word, and continue pressing `w` to move to next words
         println!("Student Name: {}", self.name);
         println!("Grades: {:?}", self.grades);
         //Move to cursor to letter `A` in Average and press `d2w` to delete `Average Grade`
