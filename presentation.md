@@ -62,6 +62,7 @@ date: 2019-11-19
 - So many tools support vim motion
 -- obsidian
 
+![image](https://github.com/sanathks/vim-motion/assets/4918600/f36351a6-069c-44a3-bcd7-3f36085f6c00)
 
 # Text Objects
 This
