@@ -16,7 +16,6 @@ date: 2019-11-19
          j              
          ↓
 - These prefix with a count to move multiple times
-- Demo
 
 
 # Important Vim Motion Concepts
@@ -30,7 +29,6 @@ date: 2019-11-19
     -- `a` = around
     -- `w` = word
     -- etc
-- Demo
 
 
 
@@ -42,16 +40,14 @@ date: 2019-11-19
 - Also motion is composable as 
 -- {`operator`}{`count`}{`motion`} = `d2w` = delete 2 words
 -- {`count`}{`operator`}{`motion`} = `2dw` = delete 2 words
-- Demo
 
 # Text Objects
 - Text objects are a way to select text based on its structure
-- Text objects motion can be used with operators 
+- Text objects motion can be used with operators, `a` = around, `i` = inside
 -- {`operator`}{`a`|`i`}{`text-object`} = `ciw` = change inside word
 -- `daw` = delete a word
 -- `ciw` = change inside word
 
-- Demo
 
 # Why Vim Motion?
 
@@ -62,19 +58,12 @@ date: 2019-11-19
 - So many tools support vim motion
 -- obsidian
 
-![image](https://github.com/sanathks/vim-motion/assets/4918600/f36351a6-069c-44a3-bcd7-3f36085f6c00)
-
-# Text Objects
-This
-
-
-# Why Vim Motion?
-
 
 
 # Resources
-
 - Presentation: https://github.com/sanathks/vim-motion 
 - VsCode extention : https://github.com/VSCodeVim/Vim
 - JetBrains plugin : https://github.com/JetBrains/ideavim
 - Vimtutor : https://www.openvim.com/tutorial.html
+
+![image](https://github.com/sanathks/vim-motion/assets/4918600/f36351a6-069c-44a3-bcd7-3f36085f6c00)
