@@ -1,7 +1,7 @@
 ---
 title: Vim Motion
 author: Sanath 
-date: 2019-11-19
+date: 2024-05-02
 ---
 
 # What is vim-motion?
